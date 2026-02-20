@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     # 'blood',
     'complaint',
     'department',
-    # 'people',
+    'people',
     'post',
     'event',
     'notice',
@@ -65,7 +65,7 @@ INSTALLED_APPS = [
     # 'message',
     'societyApplication',
     'transaction',
-    # 'payment',
+    'payment',
     # 'newsletter',
 ]
 
@@ -204,3 +204,10 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = env("EMAIL")
 EMAIL_HOST_PASSWORD = env("EMAIL_PASSWORD")
+
+
+
+
+
+
+
