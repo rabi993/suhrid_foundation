@@ -27,7 +27,7 @@ router.register('users', UserViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-    # path('contact_us/', include('contact_us.urls')),
+    path('contact_us/', include('contact_us.urls')),
     # path('service/', include('service.urls')),
     path('gift/', include('gift.urls')),
     path('department/', include('department.urls')),
