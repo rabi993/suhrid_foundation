@@ -106,7 +106,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "suhrid_foundation.wsgi.application"
+WSGI_APPLICATION = "suhrid_foundation.wsgi.app"
 
 
 # Database
